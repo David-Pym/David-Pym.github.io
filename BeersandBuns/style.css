@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Oswald&display=swap');
+
+body {
+    margin: 0;
+    background-color: #121212
+}
+
+a{
+    text-decoration:none;
+    color:#ffffff
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Orelega One', cursive;
+}
+
+h2{
+    font-family: 'Orelega One', cursive;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+}
+
+.parent-header {
+    height: 18vh;
+    background: url(https://images.unsplash.com/photo-1543751416-705d3e34d02a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1);
+    background-size: cover;
+    display:flex;
+}
+   
+
+.buttons-row {
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Orelega One', cursive;
+}
+
+.parent-Hero {
+    height: 85vh;
+    background: no-repeat url(https://images.unsplash.com/photo-1504981983529-9ed8031ade7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80%27);
+    background-size: cover;
+    display: flex;
+}
+
+.Header-columns {
+    margin: auto;
+    width:50%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.parent-content {
+    background-color: #121212;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    color: #ffffff
+}
+
+.content-beer-column,
+.content-burgers-column {
+    padding: 2%;
+}
+
+
+.parent-footer {
+    height: 200px;
+    background: url(https://images.unsplash.com/photo-1543751416-705d3e34d02a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-nav,
+.footer-soc {
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    flex-direction: row;
+}
