@@ -108,6 +108,31 @@ p{
     background-size: cover;
     display: flex;
 }
-    
-    
+
+.menulist {
+    height: 60vh;
+    display: flex;
+}
+
+.beerlist,
+.beerprice,
+.burgerlist,
+.burgerprice {
+    width: 25%;
+    display: flex;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 3;
+    padding: 10px;
+}
+
+
+.footerreturn {
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Orelega One', cursive;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
 
